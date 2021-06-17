@@ -39,4 +39,4 @@ This website consists of the following sections:
 
 ## Media
 
-Images: Pixabay+ Pexels
+Images: Pixabay + Pexels + Unsplash
