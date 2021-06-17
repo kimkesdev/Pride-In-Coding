@@ -23,3 +23,8 @@ This website consists of the following sections:
 <li>About
 <li>Contact
 </ul>
+
+
+## Media
+
+Images: Pixabay+ Pexels

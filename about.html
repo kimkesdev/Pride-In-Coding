@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
 <style>
-    .flip-card {
+.flip-card {
   background-color: transparent;
   width: 300px;
   height: 300px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
-
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -22,13 +19,9 @@
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
-
-/* Position the front and back side */
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -36,41 +29,26 @@
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
 .flip-card-back {
-  background-color: rgb(124, 124, 124);
-  color: white;
+  background-color: rgb(187, 255, 232);
+  color: purple;
   transform: rotateY(180deg);
+  border-radius: 50%;
 }
-
-/* Float four columns side by side */
 .column {
   float: left;
-  width: 40%;
-  padding: 0 5px;
+  padding: 15px 15px;
 }
-
-/* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 </style>
 </head>
 <body>
     <h1>About Us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, iste delectus. Dignissimos iusto, est, reprehenderit laudantium at repudiandae consectetur doloremque odit molestias laboriosam ullam temporibus? Repellendus incidunt illum nobis porro.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, iste delectus. Dignissimos iusto, est, reprehenderit laudantium at repudiandae consectetur doloremque odit.</p>
 
     <!-- flip cards-->
     <div class="row">
@@ -78,12 +56,13 @@
         <div class="flip-card">
         <div class="flip-card-inner">
         <div class="flip-card-front">
-        <img src="#" style="width:300px;height:300px;">
+        <img src="img/cythia.jpg">
         </div>
         <div class="flip-card-back">
         <h1>Cythia</h1>
         <h2>Head Guide</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ad fugiat incidunt in, voluptate maxime illum doloremque? Suscipit perspiciatis aliquam consectetur cumque, eligendi culpa maxime fugit officiis doloribus mollitia placeat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel ad fugiat incidunt in, voluptate maxime illum doloremque? 
         </div>
         </div>
         </div>
@@ -93,16 +72,51 @@
         <div class="flip-card">
         <div class="flip-card-inner">
         <div class="flip-card-front">
-        <img src="#" style="width:300px;height:300px;">
+        <img src="img/caitlyn.jpg">
         </div>
         <div class="flip-card-back">
         <h1>Caitlyn</h1>
         <h2>Head Activities</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ad fugiat incidunt in, voluptate maxime illum doloremque? Suscipit perspiciatis aliquam consectetur cumque, eligendi culpa maxime fugit officiis doloribus mollitia placeat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel ad fugiat incidunt in, voluptate maxime illum doloremque? 
         </div>
         </div>
         </div>
         </div>
+
+        <div class="column">
+        <div class="flip-card">
+        <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <img src="img/james.jpg">
+        </div>
+        <div class="flip-card-back">
+        <h1>James</h1>
+        <h2>Musician</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel ad fugiat incidunt in, voluptate maxime illum doloremque? 
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="column">
+        <div class="flip-card">
+        <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <img src="img/diego.jpg">
+        </div>
+        <div class="flip-card-back">
+        <h1>Diego</h1>
+        <h2>.....</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel ad fugiat incidunt in, voluptate maxime illum doloremque? 
+        </div>
+        </div>
+        </div>
+        </div>
+
+
     </div>
 
 </body>
