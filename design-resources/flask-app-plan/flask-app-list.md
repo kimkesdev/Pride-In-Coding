@@ -23,4 +23,6 @@
 
 ### Navigation
  - /get-testimonials
- - / 
+
+### Other
+404 Error Handling
