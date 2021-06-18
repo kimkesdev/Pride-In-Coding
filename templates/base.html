@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="{{ url_for('home') }}">
-                    <img src="https://mpng.subpng.com/20190306/qt/kisspng-scalable-vector-graphics-computer-icons-portable-n-darwin-a-premium-bootstrap-responsive-reactjs-so-5c8099a8bd16a8.9760013415519318167745.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="{{ url_for ('static', filename='images/217-removebg-preview.png') }}" width="35" height="35" class="d-inline-block align-top" alt="">
                     Pride In Coding
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
         </nav>
     </header>
 
-    <main class="container">
+    <main>
     {% block content %}
     
 
