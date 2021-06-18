@@ -3,7 +3,9 @@
 {% block content %}
 
     <div class="testimonial-banner">
-        <h1 class="banner-h1">Testimonials</h1>
+        <div class="banner-header-box">
+            <h1 class="banner-h1">Testimonials</h1>
+        </div>
     </div>
    
 
@@ -14,10 +16,10 @@
         {% if loop.index % 2 !=0 %}
 
             <div class="testimonial-box row">
-                <div class="testimonial-img col-4">
+                <div class="testimonial-img col-md-4 col-sm-12">
                     <img src="{{ testimonial.img }}">
                 </div>
-                <div class="testimonial-content col-8">
+                <div class="testimonial-content col-md-8 col-sm-12">
                     <h2 class="testimonial-title">{{ testimonial.title }}</h2>
                     <p>{{ testimonial.content }}</p>
                     <p class="font-weight-bold">{{ testimonial.author|capitalize }}</p>
@@ -26,13 +28,13 @@
 
         {% else %}
 
-            <div class="testimonial-box row">
-                <div class="testimonial-content col-8">
+            <div class="testimonial-box  flex-col-reverse row">
+                <div class="testimonial-content col-md-8 col-sm-12">
                     <h2 class="testimonial-title">{{ testimonial.title }}</h2>
                     <p>{{ testimonial.content }}</p>
                     <p class="font-weight-bold">{{ testimonial.author|capitalize }}</p>
                 </div>
-                <div class="testimonial-img col-4">
+                <div class="testimonial-img col-md-4 col-sm-12">
                     <img src="{{ testimonial.img }}">
                 </div>
             </div>
