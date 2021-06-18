@@ -28,6 +28,13 @@ h4,
 h5,
 h6 {
 	font-family: 'Bebas Neue', sans-serif;
+	text-align: center;
+}
+
+.banner-h1 {
+	padding: 160px 0 160px 0;
+	color: #f4f4f4;
+	font-size: 3rem;
 }
 
 .row,
@@ -39,11 +46,6 @@ main {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
     flex: 1 0 auto;
-}
-
-h1 {
-	text-align: center;
-	margin-top: 20px;
 }
 
 h2{
@@ -128,6 +130,13 @@ padding: 15px 15px;
 }
 
 /* Testimonials Styling */
+
+.testimonial-banner {
+	background-image: url('../images/kon-karampelas-j81TJgBMB-0-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30vh;
+}
 
 .testimonial-box {
 	width: 100%;
