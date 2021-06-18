@@ -35,7 +35,7 @@ def programme():
 
 @app.route("/testmonials")
 def get_testimonials():
-    testimonials = mongo.db.testimonials.find()
+    testimonials = mongo.db.testimonials.find().sort("created_on", -1)
     return render_template("testimonials.html", testimonials=testimonials)
 
 

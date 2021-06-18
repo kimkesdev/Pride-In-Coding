@@ -3,9 +3,40 @@
 {% block content %}
     <h1>Testimonials</h1>
 
+    
+
     {% for testimonial in testimonials %}
-        {{ testimonial.title }} <BR>
-        {{ testimonial.content}} <BR>
+
+        {% if loop.index % 2 !=0 %}
+
+            <div class="testimonial-box row">
+                <div class="testimonial-img col-4">
+                    <img src="{{ testimonial.img }}">
+                </div>
+                <div class="testimonial-content col-8">
+                    <h2 class="testimonial-title">{{ testimonial.title }}</h2>
+                    <p>{{ testimonial.content }}</p>
+                    <p class="font-weight-bold">{{ testimonial.author|capitalize }}</p>
+                </div>
+            </div>
+
+        {% else %}
+
+            <div class="testimonial-box row">
+                <div class="testimonial-content col-8">
+                    <h2 class="testimonial-title">{{ testimonial.title }}</h2>
+                    <p>{{ testimonial.content }}</p>
+                    <p class="font-weight-bold">{{ testimonial.author|capitalize }}</p>
+                </div>
+                <div class="testimonial-img col-4">
+                    <img src="{{ testimonial.img }}">
+                </div>
+            </div>
+
+        {% endif %}
+    
     {% endfor %}
+
+    
 
 {% endblock %}
