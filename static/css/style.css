@@ -131,6 +131,10 @@ padding: 15px 15px;
  .about-content {
      padding: 50px 50px;
  }
+
+ .about.title {
+    width: 100%;
+}
 /* Testimonials Styling */
 
 .testimonial-banner {
@@ -173,7 +177,7 @@ padding: 15px 15px;
 	width: 100%;
 }
 
-.testimonial-title, .about.title {
+.testimonial-title {
 	width: 100%;
 }
 
