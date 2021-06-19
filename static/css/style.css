@@ -88,6 +88,14 @@ h2:after{
         }
 .view,body,html{height:100%}.navbar{background-color:rgba(0, 0, 0, 0.562)}.top-nav-collapse{background-color:rgba(0, 0, 0, 0.562)}
 
+/* home page */
+
+.carousel-item img {
+    width: 100%; 
+    height: 140mm;
+    object-fit: cover;
+}
+
 /* about page */
 
 .flip-card {
