@@ -36,7 +36,7 @@ This website consists of the following sections:
 
 ### Wireframes
 
- - [About Page](design-resources/wireframes/about-wireframe.jpg)
+ - [About Page](design-resources/wireframes/about-wireframe.JPG)
  - [Testimonials Page](design-resources/wireframes/testimonials-wireframe.png)
  - [Login/Register Page](design-resources/wireframes/login-register.png)
  - [Testimonial Submission Page](design-resources/wireframes/testimonial-submission.png)
