@@ -51,6 +51,9 @@
                             <a class="nav-link" href="{{ url_for('programme') }}">Programme</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('get_testimonials') }}">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ url_for('contact_us') }}">Contact Us</a>
                         </li>
                     </ul>
@@ -72,11 +75,37 @@
     </main>
 
     <footer class="page-footer">
-        <div class="container">
-            <div>
-                <h5>Footer - Placeholder</h5>
-            </div>
+        <!--Footer-->
+    <div class="container-fluid footer-container">
+        <div class="row">
+          <!--Social media icons-->
+          <div class="col-12" id="social-col">
+            <ul class="social-media-links">
+                <li class="list-inline-item mx-1">
+                    <a href="https://github.com/aineon/women-in-tech" target="_blank" rel="noopener noreferrer" aria-label="GitHub icon">
+                        <i class="fab fa-github-square active"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item mx-1">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook icon">
+                        <i class="fab fa-facebook-square active"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item mx-1">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram icon">
+                        <i class="fab fa-instagram-square active"></i>
+                    </a>
+                </li>
+            </ul>
+          </div>
         </div>
+        <!--Copyright-->
+        <div class= row>
+          <div class="col-12" id="copyright-col">
+              <p class="copyright">Pride In Coding | Copyright © 2021</p>
+          </div>
+        </div>
+    </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
