@@ -175,7 +175,9 @@ h2:after{
 	font-weight: bold;
 	font-size: 150%;
 	text-transform: uppercase;
+	text-align: center;
 	margin-top: 75px;
+	
  }
 
 /* Testimonials Styling */
