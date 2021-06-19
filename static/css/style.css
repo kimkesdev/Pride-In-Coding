@@ -168,6 +168,14 @@ h2:after{
      color: #ffc6ff;
      padding: 5px 5px;
  }
+
+ /* Programme page */
+
+ .schedule {
+	font-weight: bold;
+	font-size: 120%;
+ }
+
 /* Testimonials Styling */
 
 .testimonial-banner {
