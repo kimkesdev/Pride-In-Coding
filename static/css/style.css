@@ -137,6 +137,14 @@ h2:after{
     width: 100%;
 }
 
+ .connect {
+     color: #bdb2ff;
+     text-transform: uppercase;
+ }
+ .connect a{
+     color: #ffc6ff;
+     padding: 5px 5px;
+ }
 /* Testimonials Styling */
 
 .testimonial-banner {
