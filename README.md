@@ -1,7 +1,7 @@
 # Pride In Coding
 
-# Deployed Site
-...
+## Deployed Site
+[Live website](https://pride-in-coding.herokuapp.com/)
 
 ## UX Design
 
@@ -28,18 +28,20 @@ Registration and User Accounts by Site User
 ### Scope
 This website consists of the following sections:
 
-- Home / landing page
-- Program / activities
+- Home 
+- Program 
 - Testimonials
 - About
 - Contact
 
 ### Wireframes
 
- - [About Page](design-resources/wireframes/about-wireframe.JPG)
- - [Testimonials Page](design-resources/wireframes/testimonials-wireframe.png)
- - [Login/Register Page](design-resources/wireframes/login-register.png)
- - [Testimonial Submission Page](design-resources/wireframes/testimonial-submission.png)
+- [Home Page](design-resources/wireframes/Homepage-wireframe.png)
+- [About Page](design-resources/wireframes/about-wireframe.JPG)
+- [Testimonials Page](design-resources/wireframes/testimonials-wireframe.png)
+- [Login/Register Page](design-resources/wireframes/login-register.png)
+- [Testimonial Submission Page](design-resources/wireframes/testimonial-submission.png)
+- [Contact Page](design-resources/wireframes/contact-wireframe.JPG)
 
 ### Stucture
 - Header: ...
@@ -47,17 +49,16 @@ This website consists of the following sections:
 - Program Page: ...
 - About Page: ...
 - Contact Page: ...
-- Login Page: ...
-- Sign Up Page: ...
-- Profile Page: ...
-
+- Footer: ...
 
 ### Skeleton
 
 ### Surface
 - Font Family text: ...
-- Background color: ...
-- Color schema: ...
+- Background color: white
+- Color Schema:
+![](design-resources/wireframes/colour_palette.png)
+
 
 ### Database Design
 
