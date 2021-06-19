@@ -47,15 +47,21 @@ This website consists of the following sections:
 - Header: ...
 - Landing Page: ...
 - Program Page: ...
-- About Page: ...
+- About Page: 
+    - Flip card: width 300px, height 300px
+    - Flip card back color: #caffbf
 - Contact Page: ...
-- Footer: ...
+- Footer:
+    - Background-color: #a0c4ff
 
 ### Skeleton
+- Navbar color: #a0c4ff
+- Navbar font-weight: 600
 
 ### Surface
-- Font Family text: ...
-- Background color: white
+- Font Family: 'Bebas Neue', sans-serif
+- Font color: #213f61
+- Background color: #f4f4f4
 - Color Schema:
 ![](design-resources/wireframes/colour_palette.png)
 
