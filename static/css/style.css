@@ -185,6 +185,17 @@ h2:after{
 
 /* Contact us form*/
 
+.contact-banner {
+	background-image: url('../images/contactbanner.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.19);
+}
+
 .contact-us-container{
 	position: relative;
 	width: 100%;
