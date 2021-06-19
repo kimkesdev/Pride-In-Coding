@@ -173,8 +173,9 @@ h2:after{
 
  .schedule {
 	font-weight: bold;
-	font-size: 140%;
+	font-size: 150%;
 	text-transform: uppercase;
+	margin-top: 50px;
  }
 
 /* Testimonials Styling */
