@@ -90,8 +90,13 @@ h2:after{
 
 /* home page */
 
+.celebrate-heading {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .carousel {
-	margin top: 15px;
+	margin-top: 15px;
 }
 
 .carousel-item img {
