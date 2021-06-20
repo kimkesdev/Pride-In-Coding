@@ -598,7 +598,7 @@ footer{
 
 .column {
   float: left;
-  margin: 30px 30px;
+  margin: 30px 60px;
 }
 
 a {
@@ -606,7 +606,6 @@ a {
 }
 
 /* media */
-
 
 @media(max-width: 790px){
   .wrapper .center-line{
