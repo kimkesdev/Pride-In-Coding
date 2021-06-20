@@ -232,7 +232,7 @@ h2:after{
     padding: 30px 30px;
 }
 
-.column {
+.about-column {
     float: left;
     padding: 15px 15px;
 }
@@ -248,6 +248,16 @@ h2:after{
 
  .about.title {
     width: 100%;
+}
+
+.about-box{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+	margin: 80px 0 80px 0;
 }
 
  .connect {
@@ -273,7 +283,7 @@ h2:after{
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.19);
 }
 
-.testimonial-box, .about-box{
+.testimonial-box {
 	width: 100%;
 	justify-content: center;
 	align-items: center;
