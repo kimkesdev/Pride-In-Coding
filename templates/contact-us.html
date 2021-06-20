@@ -4,10 +4,10 @@
 {% block content %}
 
 <div class="contact-banner">
-        <div class="banner-header-box">
-            <h1 class="banner-h1">Contact Us</h1>
-        </div>
+    <div class="banner-header-box">
+        <h1 class="banner-h1">Contact Us</h1>
     </div>
+</div>
 
 <div class="container">
     <div class="contact-us-container">
@@ -15,10 +15,10 @@
             <div class="left"></div>
                 <form class="right" method="POST" action="{{ url_for('contact_us') }}">
                     <h2>Contact Us</h2>
-                    <input type="text" id="full_name" name="full_name" class="field" placeholder="Your Name">
-                    <input type="text" id="email" name="email" class="field" placeholder="Your Email">
-                    <input type="text" id="phone" name="phone" class="field" placeholder="Phone">
-                    <textarea id="message" name="message" placeholder="Message" class="field"></textarea>
+                    <input type="text" id="full_name" name="full_name" class="field" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" class="field" placeholder="Your Email" required>
+                    <input type="text" id="phone" name="phone" class="field" placeholder="Phone" required>
+                    <textarea id="message" name="message" placeholder="Message" class="field"></textarea required>
                     <button class="btn" type="submit">Send</button>
                 </form>
             </div>
