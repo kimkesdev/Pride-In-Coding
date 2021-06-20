@@ -39,8 +39,19 @@ def get_testimonials():
     return render_template("testimonials.html", testimonials=testimonials)
 
 
-@app.route("/contact-us")
+@app.route("/contact-us", methods=["GET", "POST"])
 def contact_us():
+    """ Insert new contact us record to database """
+    if request.method == "POST":
+        new_contact = {
+            "full_name": request.form.get("full_name"),
+            "email": request.form.get("email"),
+            "phone": request.form.get("phone"),
+            "message": request.form.get("message"),
+        }
+        mongo.db.contactUs.insert_one(new_contact)
+        return redirect(url_for("contact_us"))
+
     return render_template("contact-us.html")
 
 

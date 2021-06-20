@@ -12,14 +12,14 @@
     <div class="contact-us-container">
         <div class="contact-box">
             <div class="left"></div>
-                <div class="right">
+                <form class="right" method="POST" action="{{ url_for('contact_us') }}">
                     <h2>Contact Us</h2>
-                    <input type="text" class="field" placeholder="Your Name">
-                    <input type="text" class="field" placeholder="Your Email">
-                    <input type="text" class="field" placeholder="Phone">
-                    <textarea placeholder="Message" class="field"></textarea>
-                    <button class="btn">Send</button>
-                </div>
+                    <input type="text" id="full_name" name="full_name" class="field" placeholder="Your Name">
+                    <input type="text" id="email" name="email" class="field" placeholder="Your Email">
+                    <input type="text" id="phone" name="phone" class="field" placeholder="Phone">
+                    <textarea id="message" name="message" placeholder="Message" class="field"></textarea>
+                    <button class="btn" type="submit">Send</button>
+                </form>
             </div>
         </div>
     </div>
