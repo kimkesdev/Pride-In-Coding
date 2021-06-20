@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% set active_page = 'programme' %}
 
 {% block content %}
 
@@ -10,23 +11,28 @@
 
 <div class="container">
     <div class="row schedule">
-        <div class="col-6">
-            <p>09:00</p>
-            <p>10:00</p>
-            <p>11:00</p>
-            <p>12:00</p>
-            <p>13:00</p>
-            <p>14:00</p>
-            <p>15:00</p>
+        <div class="col-12">
+            <h2 class="about-title">Programme</h2>
         </div>
-        <div class="col-6">
-            <p>HTML Intro</p>
-            <p>HTML Code-along</p>
-            <p>CSS Intro</p>
-            <p>Lunch</p>
-            <p>CSS Code-along</p>
-            <p>JavaScript Intro</p>
-            <p>JavaScript Code-along</p>
+        <div class="row w-100">
+            <div class="col-6">
+                <p>09:00</p>
+                <p>10:00</p>
+                <p>11:00</p>
+                <p>12:00</p>
+                <p>13:00</p>
+                <p>14:00</p>
+                <p>15:00</p>
+            </div>
+            <div class="col-6">
+                <p>HTML Intro</p>
+                <p>HTML Code-along</p>
+                <p>CSS Intro</p>
+                <p>Lunch</p>
+                <p>CSS Code-along</p>
+                <p>JavaScript Intro</p>
+                <p>JavaScript Code-along</p>
+            </div>
         </div>
     </div>      
 </div>

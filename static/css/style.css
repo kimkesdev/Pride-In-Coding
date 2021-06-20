@@ -34,7 +34,8 @@ h6 {
 .banner-h1 {
 	color: #f4f4f4;
     font-size: 3rem;
-    padding-top: 10vh;
+    padding-top: 5vh;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .row,
@@ -74,6 +75,7 @@ h2:after{
 	background-image: url('../images/homebanner.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	height: 30vh;
 	display: flex;
 	align-items: center;
@@ -101,9 +103,12 @@ h2:after{
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.19);
 }
 
+.carousel-item {
+	height: 40vh;
+}
+
 .carousel-item img {
     width: 100%; 
-    height: 140mm;
     object-fit: cover;
 }
 
@@ -179,7 +184,12 @@ h2:after{
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 100px;
-	
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0 0 0 / 19%);
+	padding: 50px 25px;
  }
 
 /* Testimonials Styling */
@@ -188,6 +198,7 @@ h2:after{
 	background-image: url('../images/testimonialsimg.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	height: 30vh;
 	display: flex;
 	align-items: center;
@@ -234,6 +245,7 @@ h2:after{
 	background-image: url('../images/contactbanner.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	height: 30vh;
 	display: flex;
 	align-items: center;
@@ -265,6 +277,7 @@ h2:after{
 }
 
 .contact-box{
+	min-height: 500px;
 	max-width: 850px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -324,33 +337,12 @@ textarea{
     background-color: #fff;
 }
 
-@media screen and (max-width: 880px){
-	.contact-box{
-		grid-template-columns: 1fr;
-	}
-	.left{
-		height: 200px;
-	}
-}
-
-@media (max-width: 576px) {
-	.flex-col-reverse {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-    }
-}
-
-
 /* Programme */
 .programme-banner {
 	background-image: url('../images/programmebanner.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	height: 30vh;
 	display: flex;
 	align-items: center;
@@ -392,3 +384,51 @@ footer{
 .fab:hover {
     color: #99C0C2;
 }
+
+
+/* Media Queries */
+
+@media (min-width: 1140px) {
+	.carousel-item img {
+		width: 100%;
+		object-fit: cover;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+
+@media (max-width: 576px) {
+	.flex-col-reverse {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+	.contact-us-container {
+		padding: 20px 0;
+	}
+
+	.banner-h1 {
+		padding-top: 10vh;
+	}
+
+	.carousel-item {
+		height: 30vh;
+	}
+}
+
+

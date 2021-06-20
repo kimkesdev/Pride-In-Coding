@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
+{% set active_page = 'testimonials' %}
 
 {% block content %}
 
-    <div class="testimonial-banner">
+    <div class="testimonial-banner container-fluid">
         <div class="banner-header-box">
             <h1 class="banner-h1">Testimonials</h1>
         </div>
@@ -22,7 +23,7 @@
                 <div class="testimonial-content col-md-8 col-sm-12">
                     <h2 class="testimonial-title">{{ testimonial.title }}</h2>
                     <p>{{ testimonial.content }}</p>
-                    <p class="font-weight-bold">{{ testimonial.author|capitalize }}</p>
+                    <p class="font-weight-bold text-right mr-5">{{ testimonial.author|capitalize }}</p>
                 </div>
             </div>
 
@@ -32,7 +33,7 @@
                 <div class="testimonial-content col-md-8 col-sm-12">
                     <h2 class="testimonial-title">{{ testimonial.title }}</h2>
                     <p>{{ testimonial.content }}</p>
-                    <p class="font-weight-bold">{{ testimonial.author|capitalize }}</p>
+                    <p class="font-weight-bold text-right mr-5">{{ testimonial.author|capitalize }}</p>
                 </div>
                 <div class="testimonial-img col-md-4 col-sm-12">
                     <img src="{{ testimonial.img }}">
