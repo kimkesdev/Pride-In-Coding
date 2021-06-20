@@ -48,20 +48,38 @@ Body:
 
 ### Home 
 [Wireframe Home Page](design-resources/wireframes/Homepage-wireframe.png)
-
+- Banner: image, full width, with page title in white centered
+- Box: 'what we do' information with contact button linked to the contact page
+- Box: carrousel with sliding images
+- Box: 'about the day' information
+- Horizontal aligned logo's of: Pride in Coding, HTML5, CSS3 and JavaScript
 
 ### Programme
+WIREFRAME!!!
+- Banner: image, full width, with page title in white centered
+- Vertical timeline with each timeblock an icon, title, start/end time and information
+- Box: each card an image, title, information and ticket button linked to eventbrite website which opens in a new browser
 
 ### About
 [Wireframe About Page](design-resources/wireframes/about-wireframe.JPG)
-- Flip card: width 300px, height 300px
-- Flip card back color: #caffbf
+- Banner: image, full width, with page title in white centered
+- Box: about us information
+- Box: 
+    - Flip cards front: width 300px, height 300px, round with profile image
+    - Flip cards back: color #caffbf / green, name, professional information, connection social media icons pink
 
 ### Testimonials
 [Wireframe Testimonials Page](design-resources/wireframes/testimonials-wireframe.png)
+- Banner: image, full width, with page title in white centered
+- Box: image, title, testimonial and student name
+Each testimonial in seprate box, vertical aligned, alternately image/text aligned
+Testimonial information comes from the MongoDB database
 
 ### Contact
 [Wireframe Contact Page](design-resources/wireframes/contact-wireframe.JPG)
+- Banner: image, full width, with page title in white centered
+- Form: image, form fields (name, email, phone, message) and send button
+Information will be send to the MongoDB database
 
 ## Database Design
 ![Pride in Coding Database Strucute](design-resources/database/pride-in-coding-dbdiagram.png)
