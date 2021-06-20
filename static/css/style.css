@@ -538,18 +538,6 @@ footer{
       -ms-flex-line-pack: center; 
 }
 
-/*--Social media icons--
-*/
-.fab{
-  font-size: 40px;
-  padding-top: 10px;
-  color: #ffc6ff;
-}
-
-.fab:hover {
-  color: #99C0C2;
-}
-
 /* --------------------------------- MEDIA QUERIES------------------ */
 
 @media (min-width: 1140px) {
