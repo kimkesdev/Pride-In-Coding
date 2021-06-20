@@ -17,8 +17,8 @@ body {
     color: #213f61;
     display: flex;
     min-height: 100vh;
-	height: 100vh;
-	width: 100%;
+    height: 100vh;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -37,8 +37,8 @@ h6 {
 
 .banner-h1 {
 	color: #f4f4f4;
-    font-size: 3rem;
-    padding-top: 5vh;
+  font-size: 3rem;
+  padding-top: 5vh;
 	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -75,6 +75,17 @@ h2:after{
     width: 100%;
 }
 
+
+/*--Navigation bar--*/
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: rgba(0, 0, 0, 0.562)!important;
+            }
+        }
+.view,body,html{height:100%}.navbar{background-color:rgba(0, 0, 0, 0.562)}.top-nav-collapse{background-color:rgba(0, 0, 0, 0.562)}
+
+/* home page */
+
 .home-banner {
 	background-image: url('../images/homebanner.jpeg');
 	background-repeat: no-repeat;
@@ -86,6 +97,7 @@ h2:after{
 	justify-content: center;
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.19);
 }
+
 /*--Navigation bar--*/
     @media (min-width: 800px) and (max-width: 850px) {
             .navbar:not(.top-nav-collapse) {
@@ -139,6 +151,7 @@ h2:after{
 
 /* home page */
 
+
 .celebrate-heading {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -157,6 +170,26 @@ h2:after{
 .carousel-item img {
     width: 100%; 
     object-fit: cover;
+}
+
+.carousel-caption, h5 {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  color: #f4f4f4;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: grey;
+  font-size: x-large;
+}
+
+.camp-logo {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.logo-box {
+  display: flex; 
+  justify-content: center;
 }
 
 /* about page */
@@ -483,6 +516,64 @@ textarea{
   transform: scale(0.97);
 }
 
+
+footer{
+  right: 0;
+  bottom: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 100%;
+}
+
+.footer-container p {
+  text-align: center;
+}
+
+#social-col{
+  align-content: flex-center; 
+      text-align: center; 
+      -ms-flex-line-pack: center; 
+}
+
+/*--Social media icons--
+*/
+.fab{
+  font-size: 40px;
+  padding-top: 10px;
+  color: #ffc6ff;
+}
+
+.fab:hover {
+  color: #99C0C2;
+}
+
+/* --------------------------------- MEDIA QUERIES------------------ */
+
+@media (min-width: 1140px) {
+	.carousel-item img {
+		width: 100%;
+		object-fit: cover;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+
+  .camp-logo {
+    height: 175px;
+    width: 175px;
+  }
+
+}
+
 /* programme project cards */
 
 .project-card {
@@ -519,6 +610,7 @@ a {
 
 /* media */
 
+
 @media(max-width: 790px){
   .wrapper .center-line{
     left: 40px;
@@ -535,7 +627,36 @@ a {
   .row-1 section .icon{
     left: -60px;
   }
+  .contact-us-container{
+    padding: 20px 30px;
+  }
+
 }
+
+@media (max-width: 576px) {
+	.flex-col-reverse {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+	.contact-us-container {
+		padding: 20px 0;
+	}
+
+	.banner-h1 {
+		padding-top: 10vh;
+	}
+
+	.carousel-item {
+		height: 30vh;
+	}
+}
+
 @media(max-width: 440px){
   .wrapper .center-line,
   .row section::before,
@@ -544,5 +665,9 @@ a {
   }
   .wrapper .row{
     margin: 10px 0;
+  }
+
+  .contact-us-container{
+    padding: 20px 0;
   }
 }
