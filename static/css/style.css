@@ -586,10 +586,6 @@ footer{
   font-size: 18px;
 }
 
-.project-button:hover, a:hover {
-  background-color: #fdffb6;
-}
-
 .column {
   float: left;
   margin: 30px 30px;
