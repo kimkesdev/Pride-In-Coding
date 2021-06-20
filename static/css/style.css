@@ -418,6 +418,10 @@ footer{
         flex-direction: column-reverse;
     }
 
+	.contact-us-container {
+		padding: 20px 0;
+	}
+
 	.banner-h1 {
 		padding-top: 10vh;
 	}
