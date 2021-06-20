@@ -50,9 +50,14 @@ def contact_us():
             "message": request.form.get("message"),
         }
         mongo.db.contactUs.insert_one(new_contact)
-        return redirect(url_for("contact_us"))
+        return redirect(url_for("thank_you"))
 
     return render_template("contact-us.html")
+
+
+@app.route("/thank-you")
+def thank_you():
+    return render_template("thank-you.html")
 
 
 if __name__ == "__main__":

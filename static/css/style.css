@@ -265,6 +265,7 @@ h2:after{
 }
 
 .contact-box{
+	min-height: 500px;
 	max-width: 850px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
