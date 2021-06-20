@@ -98,6 +98,60 @@ h2:after{
 	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.19);
 }
 
+/*--Navigation bar--*/
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: rgba(0, 0, 0, 0.562)!important;
+            }
+        }
+.view,body,html{height:100%}.navbar{background-color:rgba(0, 0, 0, 0.562)}.top-nav-collapse{background-color:rgba(0, 0, 0, 0.562)}
+
+/*     FOOTER      */
+
+.social-networks{
+    text-align: center;
+    line-height: 20px;
+    background-color:rgba(0, 0, 0, 0.562);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pink {
+    color: #ffc6ff;
+}
+.green {
+    color: #caffbf;
+}
+.blue {
+    color: #9bf6ff;
+}
+.purple {
+    color: #bdb2ff;
+}
+.yellow {
+    color: #fdffb6;
+}
+.orange {
+    color: #ffd6a5;
+}
+.red {
+    color: #ffadad;
+}
+
+/* home page */
+
+
 .celebrate-heading {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -462,6 +516,7 @@ textarea{
   transform: scale(0.97);
 }
 
+
 footer{
   right: 0;
   bottom: 0;
@@ -518,6 +573,43 @@ footer{
   }
 
 }
+
+/* programme project cards */
+
+.project-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: left;
+  padding: 15px 15px;
+}
+
+.project-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  background-color: #bdb2ff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.project-button:hover, a:hover {
+  background-color: #fdffb6;
+}
+
+.column {
+  float: left;
+  margin: 30px 30px;
+}
+
+a {
+    color: #213f61;
+}
+
+/* media */
+
 
 @media(max-width: 790px){
   .wrapper .center-line{
