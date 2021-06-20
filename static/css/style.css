@@ -94,6 +94,48 @@ h2:after{
         }
 .view,body,html{height:100%}.navbar{background-color:rgba(0, 0, 0, 0.562)}.top-nav-collapse{background-color:rgba(0, 0, 0, 0.562)}
 
+/*     FOOTER      */
+
+.social-networks{
+    text-align: center;
+    line-height: 20px;
+    background-color:rgba(0, 0, 0, 0.562);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social-networks li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pink {
+    color: #ffc6ff;
+}
+.green {
+    color: #caffbf;
+}
+.blue {
+    color: #9bf6ff;
+}
+.purple {
+    color: #bdb2ff;
+}
+.yellow {
+    color: #fdffb6;
+}
+.orange {
+    color: #ffd6a5;
+}
+.red {
+    color: #ffadad;
+}
+
 /* home page */
 
 .celebrate-heading {
