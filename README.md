@@ -55,7 +55,6 @@ Body:
 - Horizontal aligned logo's of: Pride in Coding, HTML5, CSS3 and JavaScript
 
 ### Programme
-WIREFRAME!!!
 - Banner: image, full width, with page title in white centered
 - Vertical timeline with each timeblock an icon, title, start/end time and information
 - Box: each card an image, title, information and ticket button linked to eventbrite website which opens in a new browser
