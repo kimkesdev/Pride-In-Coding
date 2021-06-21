@@ -591,8 +591,9 @@ footer{
 }
 
 .column {
-  float: left;
-  margin: 30px 60px;
+    display: block;
+    display: inline-block;
+    padding: 30px 30px;
 }
 
 a {
