@@ -1,5 +1,5 @@
 # Pride In Coding
-
+![](static/images/banner.jpg)
 ## Deployed Site
 ![](design-resources/wireframes/website.JPG)
 [Live website](https://pride-in-coding.herokuapp.com/)
