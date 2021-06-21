@@ -101,13 +101,6 @@ h2:after{
 .row {
     padding-bottom: 40px;
 }
-/*--Navigation bar--*/
-    @media (min-width: 800px) and (max-width: 850px) {
-            .navbar:not(.top-nav-collapse) {
-                background: rgba(0, 0, 0, 0.562)!important;
-            }
-        }
-.view,body,html{height:100%}.navbar{background-color:rgba(0, 0, 0, 0.562)}.top-nav-collapse{background-color:rgba(0, 0, 0, 0.562)}
 
 /*     FOOTER      */
 
