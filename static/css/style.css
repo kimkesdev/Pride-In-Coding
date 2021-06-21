@@ -598,6 +598,11 @@ footer{
 a {
     color: #213f61;
 }
+@media(max-width: 790px){
+    .column{
+        padding: 0px 0px;
+    }
+}
 
 /* media */
 
